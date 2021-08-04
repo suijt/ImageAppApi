@@ -23,7 +23,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-$config['base_url'] = 'http://localhost:8080/UK/imageApp/';
+$config['base_url'] = 'http://mi-linux.wlv.ac.uk/~2017765/imageApi/';
 
 /*
 |--------------------------------------------------------------------------

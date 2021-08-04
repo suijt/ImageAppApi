@@ -54,9 +54,10 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = TRUE;
 
 $route['api/login'] = 'api/auth/login';
-// $route['api/add-image'] = 'api/auth/image';
+$route['api/verify'] = 'api/auth/verify';
 // $route['api/registration'] = 'api/auth/registration';
-// $route['api/image-list'] = 'api/image/image';
+$route['api/image-list'] = 'api/image/image';
 $route['api/add-image'] = 'api/image/image';
-// $route['api/edit-image'] = 'api/image/image';
-$route['api/user/(:num)(\.)([a-zA-Z0-9_-]+)(.*)'] = 'api/auth/user/id/$1/format/$3$4';
+$route['api/get-image/(:num)'] = 'api/image/image/$1';
+$route['api/edit-image/(:num)'] = 'api/image/editImage/$1';
+$route['api/image-delete/(:num)'] = 'api/image/deleteImage/$1';
